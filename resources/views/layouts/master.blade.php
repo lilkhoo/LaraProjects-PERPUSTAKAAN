@@ -59,8 +59,12 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="{{ url('#') }}">Daftar Hadir</a>
-
+            <a class="collapse-item" href="{{ url('books') }}">Data Buku</a>
+            <a class="collapse-item" href="{{ url('borrowings') }}">Data Peminjam</a>
+            <a class="collapse-item" href="{{ url('publishers') }}">Data Penerbit</a>
+            <a class="collapse-item" href="{{ url('students') }}">Data Siswa</a>
+            <a class="collapse-item" href="{{ url('rayons') }}">Data Rayon</a>
+            <a class="collapse-item" href="{{ url('studentGroups') }}">Data Rombel</a>
           </div>
         </div>
       </li>

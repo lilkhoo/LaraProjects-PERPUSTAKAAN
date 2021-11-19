@@ -21,16 +21,12 @@
     <table class="table table-bordered">
         <tr>
             <th>No</th>
-            <th>Judul</th>
-            <th>Penulis</th>
             <th>Penerbit</th>
             <th width="280px">Action</th>
         </tr>
         @foreach ($publishers as $publisher)
         <tr>
             <td>{{ ++$i }}</td>
-            <td>{{ $publisher->judul }}</td>
-            <td>{{ $publisher->penulis }}</td>
             <td>{{ $publisher->penerbit }}</td>
             <td>
                 <form action="{{ route('publishers.destroy',$publisher->id) }}" method="POST">

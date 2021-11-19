@@ -28,14 +28,14 @@
         
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group">
+                {{-- <div class="form-group">
                     <strong>Judul</strong>
                     <input type="text" name="judul" class="form-control" placeholder="Judul">
                 </div>
                 <div class="form-group">
                     <strong>Penulis</strong>
                     <input type="text" name="penulis" class="form-control" placeholder="Penulis">
-                </div>
+                </div> --}}
                 <div class="form-group">
                     <strong>Penerbit</strong>
                     <input type="text" name="penerbit" class="form-control" placeholder="Penerbit">
